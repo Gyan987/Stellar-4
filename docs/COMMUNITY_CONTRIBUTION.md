@@ -2,9 +2,7 @@
 
 ## ✅ Published Post
 
-**Live Post:** https://x.com/georgian_deep/status/2040429057754685647?s=20  
-**Date:** 2026-04-04  
-**Platform:** X/Twitter
+https://www.linkedin.com/in/gyan-prakash-tiwari987/
 
 ---
 
