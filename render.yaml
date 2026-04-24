@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: rakshacircle-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
+      - key: APP_API_KEY
+        sync: false
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false
+      - key: ENABLE_DEMO_SEED
+        value: "false"
+      - key: SOROBAN_RPC_URL
+        value: https://soroban-testnet.stellar.org
+      - key: SOROBAN_CONTRACT_ID
+        sync: false
+      - key: SERVER_PUBLIC_KEY
+        sync: false
+      - key: SERVER_SECRET_KEY
+        sync: false
+      - key: FEE_SPONSOR_WALLET
+        sync: false
+      - key: NIRBHAYA_SERVICE_URL
+        sync: false
