@@ -1,4 +1,4 @@
-# RakshaCircle
+# Human-RakshaCircle
 
 Production-ready women safety and emergency coordination platform powered by Stellar Soroban.
 
